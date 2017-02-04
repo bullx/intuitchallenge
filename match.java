@@ -28,7 +28,7 @@ public class match {
 		}
 
 		hm = new HashMap<String, Float>();
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < 100; i++) {
 			String csvFile = "user-" + i + ".csv";
 			BufferedReader br = null;
 			String line = "";
